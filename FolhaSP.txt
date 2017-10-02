@@ -1,12 +1,26 @@
-Web Scraping with Python
-about.me/fmasanori
-Python 3 (ao instalar não esquecer de habilitar o PATH)
-idle3 (no windows já vem instalado junto com o Python 3)
-         no linux: sudo apt-get install idle3
-Na linha de comando (cmd) executar o comando abaixo:
-pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml
+O que preciso instalar?
+  Python 3 (ao instalar não esquecer de habilitar o PATH)
+  IDLE: 
+    no windows já vem instalado junto com o Python 3 (IDLE Python)
+    no linux: sudo apt-get install idle3
+  Atenção: existe Python 2 e Python 3, usamos a versão 3
+  Na linha de comando (cmd) executar o comando abaixo (demora):
+    pip install requests beautifulsoup4 spotipy pdfminer3k selenium        twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+  Baixar também:
+    http://phantomjs.org/download.html (deixar acessível)
+  Baixar Abraji.zip e raspa.zip (descompactar)
 
-http://phantomjs.org/download.html (deixar acessível)
+Onde ficará o material atualizado?
+  github.com/fmasanori/treinamento
+
+Tem algum livro para estudar depois?
+  Web Scraping with Python
+
+Este curso estará disponível online?
+  Se eu conseguir para de viajar tanto, prometo gravar :-)
+
+Como entrar em contato com Fernando Masanori?
+  about.me/fmasanori
 
 01-html
 02-h1
@@ -66,43 +80,8 @@ mtrpires raspafamilia politistalker
 rodrigoburg copa2014 basometro congresso imoveis doacoes2014
 
 Onde conseguir ajuda? 
-Garoa Hacker Clube
 PyLadies
 Grupo Python Programadores (FB, Telegram e lista discussão)
-GruPy SP (vou repetir o curso)
-PythonJournos
-https://github.com/PythonJournos/LearningPython/wiki
 
 Onde o Python fica no Windows
-C:\Users\Fernando\AppData\Local\Programs\Python\Python36-32
-
-Exercícios para aprender Python
-Seu salário atual é de R$ 6500 reais. Faça um programa que calcule o novo salário com um aumento de 5%   
-
-Pergunte a velocidade de um carro, supondo um valor inteiro. Caso ultrapasse 110 km/h, exiba uma mensagem dizendo que o usuário foi multado. Neste caso, exiba o valor da multa, cobrando R$ 5,00 por km acima de 110.
-
-Métodos string
-Marcadores print
-dir e help
-
-Faça um programa que solicite uma data  (dd/mm/aaaa) e imprima com o nome do mês por extenso. Ex.: 24 de abril de 2017
-
-Sejam as notas = [7, 3, 2, 9, 8]. Remova a menor nota.
-Sem usar sort.
-
-Função
-For
-p12.py
-
-Dicionários
-jsonview
-p16.py
-p19.py
-p22.py
-
-Adicionais:
-wbdata, pandas, matplotlib, lxml, Xlsxwriter,
-xlrd
-
-http://www3.dataprev.gov.br/infologo/
-http://trabalho.gov.br/dados-abertos
+C:\Users\usuário\AppData\Local\Programs\Python\Python36-32
