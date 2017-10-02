@@ -1,5 +1,11 @@
 O que preciso instalar?
   Python 3 (ao instalar não esquecer de habilitar o PATH)
+    https://www.python.org/downloads/release/python-362/
+    No Windows dar download, habilar o PATH e voilá
+    No Linux já existe, só que você chama como python3
+    No MacOS tem o pkg para instalar no link acima
+      Instalar também https://www.python.org/download/mac/tcltk/
+      Pela versão do seu sistema baixar do site da ActiveState
   IDLE: 
     no windows já vem instalado junto com o Python 3 (IDLE Python)
     no linux: sudo apt-get install idle3
