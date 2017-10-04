@@ -11,7 +11,7 @@ O que preciso instalar?
     no linux: sudo apt-get install idle3
   Atenção: existe Python 2 e Python 3, usamos a versão 3
   Na linha de comando (cmd) executar o comando abaixo (demora):
-    pip install requests beautifulsoup4 spotipy pdfminer3k selenium        twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+    pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
   Baixar também:
     http://phantomjs.org/download.html (deixar acessível)
   Baixar Abraji.zip e raspa.zip (descompactar)
