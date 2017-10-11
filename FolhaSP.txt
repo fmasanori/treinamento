@@ -1,19 +1,28 @@
 O que preciso instalar?
-  Python 3 (ao instalar não esquecer de habilitar o PATH)
+  Atenção: existe Python 2 e Python 3, usamos a versão 3
+
+  Python3 (ao instalar não esquecer de habilitar o PATH):
     https://www.python.org/downloads/release/python-362/
     No Windows dar download, habilar o PATH e voilá
+      Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 por exemplo
     No Linux já existe, só que você chama como python3
     No MacOS tem o pkg para instalar no link acima
       Instalar também https://www.python.org/download/mac/tcltk/
       Pela versão do seu sistema baixar do site da ActiveState
+      Dúvidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
+
   IDLE: 
     no windows já vem instalado junto com o Python 3 (IDLE Python)
     no linux: sudo apt-get install idle3
-  Atenção: existe Python 2 e Python 3, usamos a versão 3
-  Na linha de comando (cmd) executar o comando abaixo (demora):
+  
+  pip:
+    Na linha de comando (cmd) executar o comando abaixo (demora):
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+    Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
+
   Baixar também:
     http://phantomjs.org/download.html (deixar acessível)
+
   Baixar Abraji.zip e raspa.zip (descompactar)
 
 Onde ficará o material atualizado?
@@ -23,11 +32,12 @@ Tem algum livro para estudar depois?
   Web Scraping with Python
 
 Este curso estará disponível online?
-  Se eu conseguir para de viajar tanto, prometo gravar :-)
+  Se eu conseguir parar de viajar tanto, prometo gravar :-)
 
 Como entrar em contato com Fernando Masanori?
   about.me/fmasanori
 
+Descrição do conteúdo de raspa.zip
 01-html
 02-h1
 03-trechos verdes
@@ -82,8 +92,10 @@ geo02-traça rotas
 geo03-Local de uma Lat Long
 poke01-Habilidade Battle Armor
 poke02-Tipo Voadores 
-mtrpires raspafamilia politistalker
-rodrigoburg copa2014 basometro congresso imoveis doacoes2014
+
+Repositórios de jornalistas, com raspagens:
+mtrpires: raspafamilia politistalker
+rodrigoburg: copa2014 basometro congresso imoveis doacoes2014
 
 Onde conseguir ajuda? 
 PyLadies
