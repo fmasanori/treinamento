@@ -1,50 +1,52 @@
 O que preciso instalar?
-  AtenÁ„o: existe Python 2 e Python 3, usamos a vers„o 3
+  Aten√ß√£o: existe Python 2 e Python 3, usamos a vers√£o 3
 
-  Python3 (ao instalar n„o esquecer de habilitar o PATH):
+  Python3 (ao instalar n√£o esquecer de habilitar o PATH):
     https://www.python.org/downloads/release/python-362/
-    No Windows dar download, habilar o PATH e voil·
-      Se vocÍ tiver um notebook, sem as atualizaÁıes do Service Pack ou se der erro de DLL, instale uma vers„o mais antiga, Python 3.4 por exemplo
-    No Linux j· existe, sÛ que vocÍ chama como python3
+    No Windows dar download, habilar o PATH e voil√°
+      Se voc√™ tiver um notebook, sem as atualiza√ß√µes do Service Pack ou se der erro de DLL, instale uma vers√£o mais antiga, Python 3.4 por exemplo
+    No Linux j√° existe, s√≥ que voc√™ chama como python3
     No MacOS tem o pkg para instalar no link acima
-      Instalar tambÈm https://www.python.org/download/mac/tcltk/
-      Pela vers„o do seu sistema baixar do site da ActiveState
-      D˙vidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
+      Instalar tamb√©m https://www.python.org/download/mac/tcltk/
+      Pela vers√£o do seu sistema baixar do site da ActiveState
+      D√∫vidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
 
   IDLE: 
-    no windows j· vem instalado junto com o Python 3 (IDLE Python)
+    no windows j√° vem instalado junto com o Python 3 (IDLE Python)
     no linux: sudo apt-get install idle3
   
   pip:
     Na linha de comando (cmd) executar o comando abaixo (demora):
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
-    Lembre que, se vocÍ usar MacOS e Linux, ter· ao mesmo tempo Python2 e Python3. Ent„o dever· instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
+    caso apare√ßa um erro, tentar:
+    python -m pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+    Lembre que, se voc√™ usar MacOS e Linux, ter√° ao mesmo tempo Python2 e Python3. Ent√£o dever√° instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
-  Baixar tambÈm:
-    http://phantomjs.org/download.html (deixar acessÌvel)
+  Baixar tamb√©m:
+    http://phantomjs.org/download.html (deixar acess√≠vel)
 
   Baixar Abraji.zip e raspa.zip (descompactar)
 
-Onde ficar· o material atualizado?
+Onde ficar√° o material atualizado?
   github.com/fmasanori/treinamento
 
 Tem algum livro para estudar depois?
   Web Scraping with Python
 
-Este curso estar· disponÌvel online?
+Este curso estar√° dispon√≠vel online?
   Se eu conseguir parar de viajar tanto, prometo gravar :-)
 
 Como entrar em contato com Fernando Masanori?
   about.me/fmasanori
 
-DescriÁ„o do conte˙do de raspa.zip
+Descri√ß√£o do conte√∫do de raspa.zip
 01-html
 02-h1
 03-trechos verdes
 04-texto da div
 05-filhos da tabela
-06-tabela sem o cabeÁalho
-07-preÁo atravÈs do ˙ltimo td
+06-tabela sem o cabe√ßalho
+07-pre√ßo atrav√©s do √∫ltimo td
 08-imagens com ER
 08a-baixar as imagens
 09-tag com 2 atributos
@@ -64,9 +66,9 @@ world cup api+
 22-gravar csv, twitter ao redor da Folha
         (twitter python api geolocation)
 23-megasena
-24-json, pegar localizaÁ„o do IP
+24-json, pegar localiza√ß√£o do IP
 25-json
-26-localizaÁ„o dos colaboradores wikipedia
+26-localiza√ß√£o dos colaboradores wikipedia
 27-gravar csv de uma tabela
 28-utf-8 russo
 29-ler CSV
@@ -76,30 +78,30 @@ world cup api+
 33-Cookie
 34-outra forma Cookie
 35-Tela Login
-36-Ajax p·gina muda, espera tempo
-37-Ajax espera o bot„o aparecer
+36-Ajax p√°gina muda, espera tempo
+37-Ajax espera o bot√£o aparecer
 38-Ajax redirect
 39-CAPTCHA
-40-itiner·rios Ùnibus SJC
+40-itiner√°rios √¥nibus SJC
 41-lxml enunciados concursos
 42-Billboard 100
-43-maior n˙mero de meninas
-44-EvoluÁ„o menÁıes acervo folha
+43-maior n√∫mero de meninas
+44-Evolu√ß√£o men√ß√µes acervo folha
 	(networking Sergio, Fernanda)
-for01-pizzarias prÛximas
+for01-pizzarias pr√≥ximas
 geo01-Lat Long de um local
-geo02-traÁa rotas
+geo02-tra√ßa rotas
 geo03-Local de uma Lat Long
 poke01-Habilidade Battle Armor
 poke02-Tipo Voadores 
 
-RepositÛrios de jornalistas, com raspagens:
+Reposit√≥rios de jornalistas, com raspagens:
 mtrpires: raspafamilia politistalker
 rodrigoburg: copa2014 basometro congresso imoveis doacoes2014
 
 Onde conseguir ajuda? 
 PyLadies
-Grupo Python Programadores (FB, Telegram e lista discuss„o)
+Grupo Python Programadores (FB, Telegram e lista discuss√£o)
 
 Onde o Python fica no Windows
-C:\Users\usu·rio\AppData\Local\Programs\Python\Python36-32
+C:\Users\usu√°rio\AppData\Local\Programs\Python\Python36-32
