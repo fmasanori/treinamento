@@ -1,24 +1,24 @@
-#Treinamento em Raspagem de Dados para Jornalistas
+# Treinamento em Raspagem de Dados para Jornalistas
 
 *Informação de instalação baseada no curso da FolhaSP*
 
-##O que é necessário instalar?
-###Python
+## O que é necessário instalar?
+### Python
      
 *Atenção: existe Python 2 e Python 3, usamos a versão 3*
 
 [Link de Instalação do Python3](https://www.python.org/downloads/release/python-362/)
-#####Windows:
+##### Windows:
 
      No Windows dar download, habilitar o PATH e voilá
 
       Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 por exemplo.
 
-#####Linux
+##### Linux
 
      Já existe, só que você chama como python3
 
-#####MacOS 
+##### MacOS 
 
       Tem o pkg para instalar no link acima
 
@@ -30,19 +30,19 @@
 
 
 
-###IDLE: 
+### IDLE: 
 
-#####Windows:
+##### Windows:
 
     Já vem instalado junto com o Python 3 (IDLE Python)
 
-#####Linux: 
+##### Linux: 
 
     sudo apt-get install idle3
 
   
 
-###Demais bibliotecas a serem utilizadas:
+### Demais bibliotecas a serem utilizadas:
 
     Na linha de comando (cmd) executar o comando abaixo (demora):
 
@@ -52,7 +52,7 @@
 
 
 
-###Baixar também:
+### Baixar também:
 
     http://phantomjs.org/download.html (deixar acessível)
 
@@ -61,7 +61,7 @@
 
 
 
-##FAQS
+## FAQS
 
 1- Onde ficará o material atualizado?
 
@@ -111,7 +111,7 @@
 
 
 
-##Descrição do conteúdo de raspa.zip
+## Descrição do conteúdo de raspa.zip
 
 01-html
 
