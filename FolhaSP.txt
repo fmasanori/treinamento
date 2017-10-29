@@ -14,6 +14,7 @@ O que preciso instalar?
   IDLE: 
     no windows já vem instalado junto com o Python 3 (IDLE Python)
     no linux: sudo apt-get install idle3
+    no MacOS: mudar o teclado EUA Internacional para EUA simples
   
   pip:
     Na linha de comando (cmd) executar o comando abaixo (demora):
