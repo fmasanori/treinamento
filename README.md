@@ -36,6 +36,9 @@
 
     Já vem instalado junto com o Python 3 (IDLE Python)
 
+##### MacOS:  
+    Mudar o teclado EUA Internacional para EUA simples
+
 ##### Linux: 
 
     sudo apt-get install idle3
@@ -48,8 +51,10 @@
 
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
 
-    *Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.*
+    Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
+    Uma opção muito utilizada são os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
+    pip install numpy ipython jupyter
 
 
 ### Baixar também:
