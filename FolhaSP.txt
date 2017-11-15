@@ -19,6 +19,11 @@ O que preciso instalar?
   pip:
     Na linha de comando (cmd) executar o comando abaixo (demora):
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+    Se der algum erro, tente dar pip install <nome> para cada biblioteca, assim você consegue isolar qual delas está com problemas
+
+    Muita gente prefere usar o Jupyter, se quiser instale também
+    pip install numpy ipython jupyter
+
     Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
   Baixar também:
@@ -93,6 +98,8 @@ geo02-traça rotas
 geo03-Local de uma Lat Long
 poke01-Habilidade Battle Armor
 poke02-Tipo Voadores 
+
+Os arquivos tarefa*.py são para os exercícios do minicurso
 
 Repositórios de jornalistas, com raspagens:
 mtrpires: raspafamilia politistalker
