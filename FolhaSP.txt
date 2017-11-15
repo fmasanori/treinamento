@@ -17,14 +17,15 @@ O que preciso instalar?
     no MacOS: mudar o teclado EUA Internacional para EUA simples
   
   pip:
-    Na linha de comando (cmd) executar o comando abaixo (demora):
+    Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
+    No Windows, se você não tinha Python 2 antes, basta usar pip
+
+    Na linha de comando (cmd do Windows) ou terminal (Mac e Linux) executar o comando abaixo (demora):
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
     Se der algum erro, tente dar pip install <nome> para cada biblioteca, assim você consegue isolar qual delas está com problemas
 
-    Muita gente prefere usar o Jupyter, se quiser instale também
+    Uma opção muito utilizada são os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
     pip install numpy ipython jupyter
-
-    Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
   Baixar também:
     http://phantomjs.org/download.html (deixar acessível)
