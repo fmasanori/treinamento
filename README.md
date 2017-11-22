@@ -13,6 +13,8 @@
      No Windows dar download, habilitar o PATH e voilá
 
       Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 por exemplo.
+     
+![Imagem de habilitar o PATH](/addtopath.jpg)
 
 ##### Linux
 
