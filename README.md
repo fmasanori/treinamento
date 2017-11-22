@@ -49,9 +49,15 @@
 
 ### Demais bibliotecas a serem utilizadas:
 
-    Na linha de comando (cmd) executar o comando abaixo (demora):
+Na linha de comando (cmd) executar o comando abaixo (demora):
 
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+    
+Ou
+    
+    pip install -r requirements.txt
+
+Também
 
     Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
