@@ -7,12 +7,12 @@
      
 *Atenção: existe Python 2 e Python 3, usamos a versão 3*
 
-[Link de Instalação do Python3](https://www.python.org/downloads/release/python-362/)
+[Link de Instalação do Python3](https://www.python.org/downloads/release/python-363/)
 ##### Windows:
 
      No Windows dar download, habilitar o PATH e voilá
 
-      Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 por exemplo.
+      Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 é a que tem dado certo.
      
 ![Imagem de habilitar o PATH](/addtopath.jpg)
 
@@ -49,7 +49,7 @@
 
 ### Demais bibliotecas a serem utilizadas:
 
-Na linha de comando (cmd) executar o comando abaixo (demora):
+Na linha de comando (cmd) executar o comando abaixo (demora um pouco):
 
     pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
     
@@ -61,8 +61,13 @@ Também
 
     Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
+
+### Jupyter Notebooks
     Uma opção muito utilizada são os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
     pip install numpy ipython jupyter
+
+    Após a instalação você pode usar o Python e suas bibliotecas no seu navegador preferido:
+    jupyter notebook
 
 
 ### Baixar também:
@@ -120,7 +125,7 @@ Também
 7- Onde o Python fica no Windows?
 
 
-     C:\Users\usuario\AppData\Local\Programs\Python\Python36-32
+     C:\Users\Fernando\AppData\Local\Programs\Python\Python36-32
 
 
 
@@ -218,7 +223,7 @@ world cup api+
 
 43-maior número de meninas
 
-44-Evolução men??es acervo folha
+44-Evolução mencoes acervo folha
 
 (networking Sergio, Fernanda)
 
