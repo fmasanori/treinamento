@@ -64,6 +64,9 @@ Baixar também:
 
 http://phantomjs.org/download.html (deixar acessível)
 
+E por último instalar o MongoDB: 
+https://docs.mongodb.com/v3.4/installation/
+
 Baixar Abraji.zip e raspa.zip (descompactar)
 FAQS
 
@@ -201,3 +204,5 @@ geo03-Local de uma Lat Long
 poke01-Habilidade Battle Armor
 
 poke02-Tipo Voadores
+
+Inspecionar, clicar e parar. ALL > bnmp. Request headers.
