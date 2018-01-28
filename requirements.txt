@@ -10,4 +10,5 @@ matplotlib
 lxml
 tweepy
 uber-rides
+xlrd
 PyPDF2 
