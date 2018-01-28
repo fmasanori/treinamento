@@ -1,38 +1,38 @@
 Treinamento em Raspagem de Dados para Jornalistas
 
-Informação de instalação baseada no curso da FolhaSP
+InformaÃ§Ã£o de instalaÃ§Ã£o baseada no curso da FolhaSP
 
-O que é necessário instalar?
+O que Ã© necessÃ¡rio instalar?
 
 Python
 
-Atenção: existe Python 2 e Python 3, usamos a versão 3
+AtenÃ§Ã£o: existe Python 2 e Python 3, usamos a versÃ£o 3
 
-Link de Instalação do Python3
+Link de InstalaÃ§Ã£o do Python3
 
 Windows:
 
- No Windows dar download, habilitar o PATH e voilá
+ No Windows dar download, habilitar o PATH e voilÃ¡
 
-  Se você tiver um notebook, sem as atualizações do Service Pack ou se der erro de DLL, instale uma versão mais antiga, Python 3.4 é a que tem dado certo.
+  Se vocÃª tiver um notebook, sem as atualizaÃ§Ãµes do Service Pack ou se der erro de DLL, instale uma versÃ£o mais antiga, Python 3.4 Ã© a que tem dado certo.
 
 Linux
 
- Já existe, só que você chama como python3
+ JÃ¡ existe, sÃ³ que vocÃª chama como python3
 MacOS
 
   Tem o pkg para instalar no link acima
 
-  Instalar também https://www.python.org/download/mac/tcltk/
+  Instalar tambÃ©m https://www.python.org/download/mac/tcltk/
 
-  Pela versão do seu sistema baixar do site da ActiveState
+  Pela versÃ£o do seu sistema baixar do site da ActiveState
 
-  Dúvidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
+  DÃºvidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
 IDLE:
 
 Windows:
 
-Já vem instalado junto com o Python 3 (IDLE Python)
+JÃ¡ vem instalado junto com o Python 3 (IDLE Python)
 MacOS:
 
 Mudar o teclado EUA Internacional para EUA simples
@@ -43,46 +43,46 @@ Demais bibliotecas a serem utilizadas:
 
 Na linha de comando (cmd) executar o comando abaixo (demora um pouco):
 
-pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides PyPDF2 
+pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 
 
 Ou
 
 pip install -r requirements.txt
-Também
+TambÃ©m
 
-Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
+Lembre que, se vocÃª usar MacOS e Linux, terÃ¡ ao mesmo tempo Python2 e Python3. EntÃ£o deverÃ¡ instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
 
 Jupyter Notebooks
 
-Uma opção muito utilizada são os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
+Uma opÃ§Ã£o muito utilizada sÃ£o os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
 pip install numpy ipython jupyter
 
-Após a instalação você pode usar o Python e suas bibliotecas no seu navegador preferido:
+ApÃ³s a instalaÃ§Ã£o vocÃª pode usar o Python e suas bibliotecas no seu navegador preferido:
 jupyter notebook
 
-Baixar também:
+Baixar tambÃ©m:
 
-http://phantomjs.org/download.html (deixar acessível)
+http://phantomjs.org/download.html (deixar acessÃ­vel)
 
-E por último instalar o MongoDB: 
+E por Ãºltimo instalar o MongoDB: 
 https://docs.mongodb.com/v3.4/installation/
 
 Baixar Abraji.zip e raspa.zip (descompactar)
 FAQS
 
-1- Onde ficará o material atualizado?
+1- Onde ficarÃ¡ o material atualizado?
 
   - github.com/fmasanori/treinamento
 2- Tem algum livro para estudar depois?
 
   - Web Scraping with Python
-3- Este curso estará disponível online?
+3- Este curso estarÃ¡ disponÃ­vel online?
 
  - Se eu conseguir parar de viajar tanto, prometo gravar :-)
 4- Como entrar em contato com Fernando Masanori?
 
 - about.me/fmasanori
-5- Existem outros repositórios de jornalistas, com raspagens?
+5- Existem outros repositÃ³rios de jornalistas, com raspagens?
 
 Sim!
 - mtrpires: raspafamilia politistalker
@@ -96,7 +96,7 @@ Sim!
 7- Onde o Python fica no Windows?
 
  C:\Users\Fernando\AppData\Local\Programs\Python\Python36-32
-Descrição do conteúdo de raspa.zip
+DescriÃ§Ã£o do conteÃºdo de raspa.zip
 
 01-html
 
@@ -108,9 +108,9 @@ Descrição do conteúdo de raspa.zip
 
 05-filhos da tabela
 
-06-tabela sem o cabeçalho
+06-tabela sem o cabeÃ§alho
 
-07-preço através do último td
+07-preÃ§o atravÃ©s do Ãºltimo td
 
 08-imagens com ER
 
@@ -149,11 +149,11 @@ world cup api+
     (twitter python api geolocation)
 23-megasena
 
-24-json, pegar localização do IP
+24-json, pegar localizaÃ§Ã£o do IP
 
 25-json
 
-26-localização dos colaboradores wikipedia
+26-localizaÃ§Ã£o dos colaboradores wikipedia
 
 27-gravar csv de uma tabela
 
@@ -173,31 +173,31 @@ world cup api+
 
 35-Tela Login
 
-36-Ajax página muda, espera tempo
+36-Ajax pÃ¡gina muda, espera tempo
 
-37-Ajax espera o botão aparecer
+37-Ajax espera o botÃ£o aparecer
 
 38-Ajax redirect
 
 39-CAPTCHA
 
-40-itinerários ônibus SJC
+40-itinerÃ¡rios Ã´nibus SJC
 
 41-lxml enunciados concursos
 
 42-Billboard 100
 
-43-maior número de meninas
+43-maior nÃºmero de meninas
 
-44-Evolução mencoes acervo folha
+44-EvoluÃ§Ã£o mencoes acervo folha
 
 (networking Sergio, Fernanda)
 
-for01-pizzarias próximas
+for01-pizzarias prÃ³ximas
 
 geo01-Lat Long de um local
 
-geo02-traça rotas
+geo02-traÃ§a rotas
 
 geo03-Local de uma Lat Long
 
