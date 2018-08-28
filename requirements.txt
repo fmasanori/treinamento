@@ -12,3 +12,4 @@ tweepy
 uber-rides
 xlrd
 PyPDF2 
+pytrends
