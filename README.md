@@ -51,7 +51,7 @@
 
 Na linha de comando (cmd) executar o comando abaixo (demora um pouco):
 
-    pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 
+    pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends
     
 Ou
     
