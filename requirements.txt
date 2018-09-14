@@ -13,3 +13,4 @@ uber-rides
 xlrd
 PyPDF2 
 pytrends
+seaborn
