@@ -28,7 +28,7 @@
 
       Pela versão do seu sistema baixar do site da ActiveState
 
-      Dúvidas: https://panda.ime.usp.br/panda/static/data/python/macos.html
+      Existe um tutorial bem completo: https://wsvincent.com/install-python3-mac/
 
 
 
@@ -51,7 +51,7 @@
 
 Na linha de comando (cmd) executar o comando abaixo (demora um pouco):
 
-    pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn
+    pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn numpy ipython jupyter
     
 Ou
     
@@ -60,15 +60,14 @@ Ou
 Também
 
     Lembre que, se você usar MacOS e Linux, terá ao mesmo tempo Python2 e Python3. Então deverá instalar o pip3 e rodar o comando acima com pip3 install etc, etc.
+    Para instalar o pip3 no Ubuntu ou Debian Linux sudo apt-get install python3-pip
+    Para instalar no Fedora sudo yum install python3-pip
 
 
 ### Jupyter Notebooks
     Uma opção muito utilizada são os notebooks Jupyter, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
-    pip install numpy ipython jupyter
-
-    Após a instalação você pode usar o Python e suas bibliotecas no seu navegador preferido:
     jupyter notebook
-
+    Algumas instalações com Windows podem ter problemas de DLL (tente mudar o navegador padrão)
 
 ### Baixar também:
 
