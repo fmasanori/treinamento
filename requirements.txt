@@ -14,3 +14,7 @@ xlrd
 PyPDF2 
 pytrends
 seaborn
+numpy 
+ipython 
+jupyter 
+twitter_scraper
