@@ -18,3 +18,4 @@ numpy
 ipython 
 jupyter 
 twitter_scraper
+caqui
